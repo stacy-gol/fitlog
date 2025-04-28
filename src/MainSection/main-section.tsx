@@ -1,5 +1,5 @@
 import type React from "react";
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import styles from "./main-section.module.css";
 
 const MainSection: React.FC = () => {
