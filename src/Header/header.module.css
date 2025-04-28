@@ -1,0 +1,61 @@
+.header {
+    background-color: #ffffff;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #3568CC;
+  }
+  
+  .menuIcon {
+    display: none; /* Показываем только на мобильных устройствах */
+  }
+  
+  .desktopNav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .drawerContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .drawerButton {
+    background-color: #3568CC;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .drawerButton:hover {
+    background-color: #275ba8;
+  }
+  
+  .loginButton {
+    background-color: #3568CC;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .desktopNav {
+      display: none;
+    }
+  
+    .menuIcon {
+      display: block;
+    }
+  }
+  
