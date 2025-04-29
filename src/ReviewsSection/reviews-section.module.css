@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+  }
+  
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .textBlock {
+    max-width: 70%;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .arrow {
+    color: #00103d;
+    font-size: 24px;
+    transition: all 0.2s ease;
+  }
+  
+  .arrow:hover {
+    color: #2550b9;
+  }
+  
+  .title {
+    color: #00103d;
+    font-family: "Manrope-Bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  
+  .text {
+    color: #00103d;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 0;
+    max-width: 617px;
+  }
+  
+  .containerReviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 40px 20px;
+      align-items: center;
+    }
+  
+    .headerRow {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .textBlock {
+      max-width: 100%;
+    }
+  
+    .title {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .text {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+    }
+  
+    .controls {
+      display: none;
+    }
+  
+    .containerReviews {
+      justify-content: center;
+    }
+  }

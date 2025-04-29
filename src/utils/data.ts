@@ -8,6 +8,7 @@ export interface FunctionalityItem {
     occupation: string;
     review: string;
     stars: string;
+    avatar: string;
   }
   
   export const functionality: FunctionalityItem[] = [
@@ -30,25 +31,29 @@ export interface FunctionalityItem {
       name: 'Игорь Соловьёв',
       occupation: 'Офисный сотрудник',
       review: 'С FitLog я наконец-то смог упорядочить свои тренировки и следить за питанием. Очень удобное приложение.',
-      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png'
+      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png',
+      avatar: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745902041/IMG_4_efrkqf.png'
     },
     {
       name: 'Анна Крылова',
       occupation: 'Любитель бега',
       review: 'Полностью изменил мой подход к тренировкам. Теперь я вижу свой прогресс и могу корректировать питание для лучших результатов.',
-      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png'
+      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png',
+      avatar: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745902040/IMG_1_gtikwp.png'
     },
     {
       name: 'Дмитрий Васильев',
       occupation: 'Фитнес-тренер',
       review: 'FitLog помогает моим клиентам не только следить за тренировками, но и анализировать питание. Это значительно ускоряет процесс достижения их целей.',
-      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png'
+      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png',
+      avatar: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745902041/IMG_2_tvqhmc.png'
     },
     {
       name: 'Елена Петрова',
       occupation: 'Маркетолог',
       review: 'Теперь мои тренировки и питание всегда под контролем. FitLog стал важной частью моей повседневной рутины!',
-      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png'
+      stars:'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745860387/Stars_wbuwvi.png',
+      avatar: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745902041/IMG_3_gsmggr.png'
     },
   ];
   

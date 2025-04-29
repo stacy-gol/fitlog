@@ -1,0 +1,98 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
+	background-color: #f9f9f9;
+}
+
+.navigation {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.navTitle {
+	color: #00103d;
+	font-family: "Manrope-Bold", sans-serif;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.navLinks {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navLinks li {
+	color: #00103d;
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.bottomBlock {
+	display: flex;
+	flex-direction: row;
+	gap: 470px;
+	align-items: center;
+	margin-top: 20px;
+	max-width: 100%;
+}
+
+.backToTop {
+	color: #00103d;
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 16px;
+}
+
+.backToTopImage {
+	width: 16px;
+	height: 16px;
+	padding: 0 10px;
+}
+
+.logo {
+	font-family: "Manrope-Bold", sans-serif;
+	font-size: 24px;
+	color: #2550b9;
+}
+
+.copyright {
+	color: rgba(0, 16, 61, 0.6);
+	text-align: left;
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 16px;
+	line-height: 110%;
+	font-weight: 400;
+}
+
+@media (max-width: 768px) {
+	.navLinks {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.bottomBlock {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 20px;
+		margin-top: 40px;
+	}
+
+	.backToTop {
+		order: 1;
+	}
+
+	.logo {
+		order: 0;
+	}
+
+	.copyright {
+		order: -1;
+	}
+}

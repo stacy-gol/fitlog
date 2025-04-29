@@ -1,0 +1,57 @@
+.card {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 32px;
+	flex: 1 1 48%;
+	min-width: 300px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #e0e0e0;
+	margin-right: 16px;
+}
+
+.name {
+	color: #00103d;
+	font-family: "Manrope-Bold", sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.occupation {
+	color: #7d7d7d;
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+.stars {
+	height: 24px;
+	margin: 16px 0;
+}
+
+.review {
+	color: #00103d;
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 24px;
+  }
+}
