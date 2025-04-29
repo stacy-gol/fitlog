@@ -4,70 +4,7 @@
   align-items: flex-start;
   justify-content: center;
   gap: 50px;
-  max-width: 100%;
   padding: 80px;
-}
-
-.imagesWrapper {
-  display: flex;
-  gap: 20px;
-}
-
-.image {
-  height: 500px;
-  width: auto;
-}
-
-.contentWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  color: #00103d;
-  text-align: center;
-  font-family: "Manrope-Bold", sans-serif;
-  font-size: 48px;
-  line-height: 48px;
-  font-weight: 700;
-  opacity: 0.9;
-  position: relative;
-}
-
-.description {
-  color: #00103d;
-  text-align: center;
-  font-family: "Manrope-Regular", sans-serif;
-  font-size: 16px;
-  line-height: 130%;
-  font-weight: 400;
-  opacity: 0.6;
-  position: relative;
-  max-width: 900px;
-}
-
-.button {
-  background-color: #2550b9;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 10px;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  text-transform: none;
-}
-
-.button:hover {
-  background-color: #1e3e91;
-}
-
-.mobileImage {
-  display: none;
-  margin-top: 30px;
-  width: 100%;
-  max-width: 300px;
-  height: auto;
 }
 
 .advantages {
@@ -76,13 +13,48 @@
   align-items: flex-start;
 }
 
-.advantagesImage {
-  max-height: 160px;
-  width: auto;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 1280px;
+  justify-content: space-between;
 }
 
-.advantagesMobileImage {
-  display: none;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 270px;
+}
+
+.icon {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding: 16px;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #00103d;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.text {
+  color: #2550b9;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  max-width: 270px;
 }
 
 @media (max-width: 768px) {
@@ -95,33 +67,21 @@
     width: 100%;
   }
 
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 320px;
+  }
+
   .title {
-    font-size: 24px;
-    line-height: 130%;
-    font-weight: 700;
+    margin-top: 130px;
   }
 
-  .imagesWrapper {
-    display: none;
-  }
-
-  .contentWrapper {
+  .card {
+    width: 100%;
+    max-width: 270px;
     align-items: center;
     text-align: center;
-  }
-
-  .description {
-    max-width: 315px;
-  }
-
-  .mobileImage {
-    display: block;
-  }
-  .advantagesMobileImage {
-    display: block;
-    max-width: 300px;
-  }
-  .advantagesImage {
-    display: none;
   }
 }

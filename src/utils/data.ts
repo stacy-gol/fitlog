@@ -1,3 +1,8 @@
+export interface AdvantageItem {
+  image: string;
+  text: string;
+}
+
 export interface FunctionalityItem {
     image: string;
     text: string;
@@ -10,6 +15,26 @@ export interface FunctionalityItem {
     stars: string;
     avatar: string;
   }
+
+  export const advantage: AdvantageItem[] = [
+    {
+      image: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745919663/1_1_lehc90.png', 
+      text: 'Простой и понятный интерфейс',
+    },
+    {
+      image: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745919663/2_1_scecr6.png',
+      text: 'Персонализированный анализ',
+    },
+    {
+      image: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745919663/3_3_tap1av.png',
+      text: 'Комплексный контроль',
+    },
+    {
+      image: 'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745919663/4_mqaw2y.png',
+      text: 'Гибкость в использовании',
+    },
+  ];
+  
   
   export const functionality: FunctionalityItem[] = [
     {

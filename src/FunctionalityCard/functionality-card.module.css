@@ -1,3 +1,13 @@
+.container {
+  margin-top: 64px;
+  border-radius: 16px;
+  box-shadow: var(
+    --drop-shadow-200-box-shadow,
+    0px 1px 4px 0px rgba(12, 12, 13, 0.05),
+    0px 1px 4px 0px rgba(12, 12, 13, 0.1)
+  );
+}
+
 .image {
     height: 380px;
 }
@@ -10,4 +20,13 @@
   font-weight: 700;
   width: 380px;
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+	.image {
+    height: 300px;
+  }
+  .title {
+    width: 300px;
+  }
 }
