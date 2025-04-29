@@ -1,80 +1,79 @@
-   .toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .menuIcon {
-    display: none !important;
-  }
-  
-  .desktopNav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .drawerContent {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-top: 0;
-  }
-  
-  .drawerButton {
-    background-color: transparent;
-    color: #0c1440;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: Montserrat, sans-serif;
-  }
-  
-  .drawerButton:hover {
-    color: #2550B9;
-  }
-  
-  .drawerLoginButton {
-    width: 100%;
-    background-color: #2550B9;
-    color: #fff;
-    border: none;
-    border-radius: 16px;
-    padding: 15px;
-    font-size: 18px;
-    cursor: pointer;
-    font-family: Montserrat, sans-serif;
-  }
-  
-  .loginButton {
-    background-color: #2550B9;
-    color: #fff;
-    border-radius: 8px;
-    text-transform: none;
-    font-size: 15px;
-    padding: 10px 20px;
-    font-family: Montserrat, sans-serif;
-    border: none;
-  }
-  
-  .closeButton {
-    position: absolute !important;
-    right: 0;
-    top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .desktopNav {
-      display: none;
-    }
-  
-    .menuIcon {
-      display: block !important;
-    }
-  
-    .loginButton {
-      display: none !important;
-    }
-  }
-  
+.toolbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menuIcon {
+	display: none !important;
+}
+
+.desktopNav {
+	display: flex;
+	gap: 20px;
+}
+
+.drawerContent {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-top: 0;
+}
+
+.drawerButton {
+	background-color: transparent;
+	color: #0c1440;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	font-family: Montserrat, sans-serif;
+}
+
+.drawerButton:hover {
+	color: #2550b9;
+}
+
+.drawerLoginButton {
+	width: 100%;
+	background-color: #2550b9;
+	color: #fff;
+	border: none;
+	border-radius: 16px;
+	padding: 15px;
+	font-size: 18px;
+	cursor: pointer;
+	font-family: Montserrat, sans-serif;
+}
+
+.loginButton {
+	background-color: #2550b9;
+	color: #fff;
+	border-radius: 8px;
+	text-transform: none;
+	font-size: 15px;
+	padding: 10px 20px;
+	font-family: Montserrat, sans-serif;
+	border: none;
+}
+
+.closeButton {
+	position: absolute !important;
+	right: 0;
+	top: 10px;
+}
+
+@media (max-width: 768px) {
+	.desktopNav {
+		display: none;
+	}
+
+	.menuIcon {
+		display: block !important;
+	}
+
+	.loginButton {
+		display: none !important;
+	}
+}

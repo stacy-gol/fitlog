@@ -1,5 +1,5 @@
 import type React from "react";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import styles from "./footer.module.css";
 
 const FooterSection: React.FC = () => {
@@ -16,7 +16,18 @@ const FooterSection: React.FC = () => {
       </Box>
 
       <Box className={styles.bottomBlock}>
-        <div className={styles.logo}>FITLOG</div>
+      <Typography
+					variant="h6"
+					className={styles.logo}
+					sx={{
+						color: "#2550B9",
+						fontSize: "23px",
+						fontWeight: "bold",
+						fontFamily: "Montserrat, sans-serif",
+					}}
+				>
+					FITLOG
+				</Typography>
         <div className={styles.backToTop}>
           <img src="https://res.cloudinary.com/dfeszdhhf/image/upload/v1745904502/Vector_lgp9wu.png" alt="back to top" className={styles.backToTopImage}/>
           <span>Вернуться на верх</span>

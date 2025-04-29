@@ -4,6 +4,7 @@
 	align-items: center;
 	padding: 40px 20px;
 	background-color: #f9f9f9;
+	width: 100%;
 }
 
 .navigation {
@@ -37,10 +38,9 @@
 .bottomBlock {
 	display: flex;
 	flex-direction: row;
-	gap: 470px;
+	justify-content: space-around;	
+	width: 100%;
 	align-items: center;
-	margin-top: 20px;
-	max-width: 100%;
 }
 
 .backToTop {
